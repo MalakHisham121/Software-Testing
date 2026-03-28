@@ -1,4 +1,4 @@
-package Interfaces;
+package main.Interfaces;
 public interface IScrubDigits {
     // Method to scrub digits from the input string
     // replaces digits with "X"
