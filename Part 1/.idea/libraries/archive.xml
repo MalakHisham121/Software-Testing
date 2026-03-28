@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="archive">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/java-math-library-master/archive/de.tilman_neumann.jml-1.0-src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/java-math-library-master/archive/de.tilman-neumann.jml-1.0.1-snapshot-java8-src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/java-math-library-master/archive/psiqs4.0-src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/java-math-library-master/archive/psiqs1.2-src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/java-math-library-master/archive/psiqs2.1-src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/java-math-library-master/archive/psiqs3.0-src.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
