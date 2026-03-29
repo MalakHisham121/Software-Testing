@@ -11,7 +11,6 @@ public class DigitScrubber implements IScrubDigits {
         if (input.isBlank()) {
             throw new IllegalArgumentException("Input cannot be blank");
         }
-
-        return input.replaceAll("\\d(?![0-9]*\\$)", "X");
+        return input.replaceAll("\\d", "X");
     }
 }
