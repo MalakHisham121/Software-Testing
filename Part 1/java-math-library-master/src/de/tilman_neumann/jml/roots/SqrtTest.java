@@ -18,7 +18,7 @@ import java.math.BigDecimal;
 import org.apache.log4j.Logger;
 
 import de.tilman_neumann.jml.precision.Scale;
-import de.tilman_neumann.test.junit.ClassTest;
+import de.tilman_neumann.test.ClassTest;
 
 /**
  * @author Tilman Neumann

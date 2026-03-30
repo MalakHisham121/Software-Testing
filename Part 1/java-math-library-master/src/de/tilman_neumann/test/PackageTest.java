@@ -11,31 +11,16 @@
  * You should have received a copy of the GNU General Public License along with this program;
  * if not, see <http://www.gnu.org/licenses/>.
  */
-package de.tilman_neumann.test.junit;
-
-import org.apache.log4j.Logger;
+package de.tilman_neumann.test;
 
 import de.tilman_neumann.util.ConfigUtil;
 
-import junit.framework.TestCase;
-import junit.framework.TestResult;
+import junit.framework.TestSuite;
 
-public class ClassTest extends TestCase {
+public abstract class PackageTest extends TestSuite {
 	
 	static {
 		// early initializer, works no matter if run as junit test or as java application
 		ConfigUtil.initProject();
-	}
-	
-	private static final Logger LOG = Logger.getLogger(ClassTest.class);
-	
-	// Constructor is called for each test method in the test class!
-	public ClassTest() {
-		//LOG.info("create test for " + this.getClass());
-	}
-	
-	public void run(TestResult result) {
-		LOG.info("Run " + this.getClass().getName() + "." + this.getName() + "()");
-		super.run(result);
 	}
 }
