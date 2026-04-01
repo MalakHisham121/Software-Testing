@@ -1,7 +1,9 @@
-package Services;
+package main.Services;
 
-import Interfaces.*;
-import Models.ScrubMode;
+import main.Interfaces.IScrub;
+import main.Interfaces.IScrubDigits;
+import main.Interfaces.IScrubEmails;
+import main.Models.ScrubMode;
 
 public class MainScrubber implements IScrub {
     private final IScrubDigits digitScrubber;

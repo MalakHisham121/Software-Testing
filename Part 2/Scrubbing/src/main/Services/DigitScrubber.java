@@ -1,6 +1,6 @@
-package Services;
+package main.Services;
 
-import Interfaces.IScrubDigits;
+import main.Interfaces.IScrubDigits;
 
 public class DigitScrubber implements IScrubDigits {
     @Override

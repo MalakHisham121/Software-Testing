@@ -1,6 +1,6 @@
-package Interfaces;
+package main.Interfaces;
 
-import Models.ScrubMode;
+import main.Models.ScrubMode;
 
 
 public interface IScrub {

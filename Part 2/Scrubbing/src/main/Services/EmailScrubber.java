@@ -1,6 +1,6 @@
-package Services;
+package main.Services;
 
-import Interfaces.IScrubEmails;
+import main.Interfaces.IScrubEmails;
 
 public class EmailScrubber implements IScrubEmails {
     @Override
