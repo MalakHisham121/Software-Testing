@@ -13,18 +13,18 @@
  */
 package de.tilman_neumann.jml.transcendental;
 
+import de.tilman_neumann.test.util.ClassTest;
 import junit.framework.TestSuite;
 
 import org.apache.log4j.Logger;
 
-import de.tilman_neumann.test.PackageTest;
 import de.tilman_neumann.util.ReflectionUtil;
 
 /**
  * All tests for the actual package.
  * @author Tilman Neumann
  */
-public class PackageTests extends PackageTest {
+public class PackageTests extends ClassTest.PackageTest {
 
 	@SuppressWarnings("unused")
 	private static final Logger LOG = Logger.getLogger(PackageTests.class);

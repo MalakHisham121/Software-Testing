@@ -11,8 +11,9 @@
  * You should have received a copy of the GNU General Public License along with this program;
  * if not, see <http://www.gnu.org/licenses/>.
  */
-package de.tilman_neumann.test;
+package de.tilman_neumann.test.util;
 
+import junit.framework.TestSuite;
 import org.apache.log4j.Logger;
 
 import de.tilman_neumann.util.ConfigUtil;
@@ -38,4 +39,12 @@ public class ClassTest extends TestCase {
 		LOG.info("Run " + this.getClass().getName() + "." + this.getName() + "()");
 		super.run(result);
 	}
+
+    public abstract static class PackageTest extends TestSuite {
+
+        static {
+            // early initializer, works no matter if run as junit test or as java application
+            ConfigUtil.initProject();
+        }
+    }
 }

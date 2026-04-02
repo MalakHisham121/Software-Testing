@@ -20,7 +20,7 @@ import java.math.RoundingMode;
 
 import org.apache.log4j.Logger;
 
-import de.tilman_neumann.test.ClassTest;
+import de.tilman_neumann.test.util.ClassTest;
 
 import static de.tilman_neumann.jml.base.BigDecimalConstants.F_0;
 

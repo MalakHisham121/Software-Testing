@@ -16,7 +16,7 @@ package de.tilman_neumann.jml.precision;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-import de.tilman_neumann.test.ClassTest;
+import de.tilman_neumann.test.util.ClassTest;
 
 import static de.tilman_neumann.jml.base.BigIntConstants.*;
 import static de.tilman_neumann.jml.base.BigDecimalConstants.*;

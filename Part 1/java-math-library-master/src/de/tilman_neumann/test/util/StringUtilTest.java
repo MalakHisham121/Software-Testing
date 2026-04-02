@@ -1,4 +1,4 @@
-package de.tilman_neumann.test;
+package de.tilman_neumann.test.util;
 
 import de.tilman_neumann.util.StringUtil;
 import org.junit.jupiter.api.Test;

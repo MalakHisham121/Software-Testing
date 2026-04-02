@@ -1,4 +1,4 @@
-package de.tilman_neumann.test;
+package de.tilman_neumann.test.util;
 
 import de.tilman_neumann.util.Multiset_HashMapImpl;
 import org.junit.jupiter.api.Test;
@@ -816,7 +816,7 @@ public class Multiset_HashMapImpl_Test {
     }
 
     // =========================================================
-    // 14. equals()
+    // 13. equals()
     // =========================================================
 
     @Test
@@ -913,7 +913,7 @@ public class Multiset_HashMapImpl_Test {
     }
 
     // =========================================================
-    // 15. hashCode
+    // 14. hashCode
     // =========================================================
 
     @Test
